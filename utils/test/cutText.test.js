@@ -1,7 +1,7 @@
 const cutText = require('../cutText.js');
 const expect = require('chai').expect;
 
-describe('CutText', () => {
+describe('cutText', () => {
 
   it('should return an error if "content" arg is not a string', () => {
     expect(cutText(undefined, 20)).to.equal('Error');
